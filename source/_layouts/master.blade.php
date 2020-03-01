@@ -24,7 +24,7 @@
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
@@ -66,7 +66,7 @@
             </ul>
         </footer>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ mix('js/main.js', 'assets/build') }}" async></script>
 
         @stack('scripts')
     </body>
