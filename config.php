@@ -5,9 +5,15 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Vaggelis Yfantis',
+    'siteName' => 'Octoper',
     'siteDescription' => 'Vaggelis Yfantis academic website.',
     'siteAuthor' => 'Vaggelis Yfantis',
+
+    'social' => [
+        'twitter' => 'https://twitter.com/itsoctoper',
+        'github'  => 'https://github.com/octoper',
+        'email'   => 'mailto:'
+    ],
 
     // collections
     'collections' => [
@@ -25,6 +31,7 @@ return [
             },
         ],
     ],
+
 
     // helpers
     'getDate' => function ($page) {
