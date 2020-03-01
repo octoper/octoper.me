@@ -24,7 +24,7 @@
         @include('_assets.Twitter')
     </a>
 
-    <a title="{{ $page->siteName }} Contact" href="mailto:{{ $page->social->email }}"
+    <a title="{{ $page->siteName }} Contact" href="{{ $page->social->email }}"
         class="ml-6 text-gray-700 hover:text-gray-900">
         @include('_assets.Twitter')
     </a>

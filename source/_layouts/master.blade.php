@@ -16,7 +16,9 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" type="image/jpeg" href="/assets/img/about.jpg">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
+
         <link rel="preload" href="{{ mix('css/main.css', 'assets/build') }}" as="style">
+        <link rel="preconnect" href="https://fonts.gstatic.com/">
 
         @stack('meta')
 
