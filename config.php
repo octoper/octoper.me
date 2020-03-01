@@ -12,7 +12,7 @@ return [
     'social' => [
         'twitter' => 'https://twitter.com/itsoctoper',
         'github'  => 'https://github.com/octoper',
-        'email'   => 'mailto:'
+        'email'   => 'mailto:contact@octoper.me'
     ],
 
     // collections

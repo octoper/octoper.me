@@ -17,9 +17,12 @@
         </div>
 
         <div class="row-start-1 lg:row-start-auto">
-            <img src="/assets/img/about.png"
-            alt="About image"
-            class="rounded-full h-64 w-64 bg-contain mx-auto my-6">
+            <picture>
+                <source type="image/webp" srcset="/assets/img/about.webp">
+                <source type="image/jpeg" srcset="/assets/img/about.jpg">
+                <img src="/assets/img/about.jpg" alt="Octoper Avatar"
+                class="rounded-full h-64 w-64 bg-contain mx-auto my-6">
+            </picture>
         </div>
     </div>
 
