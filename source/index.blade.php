@@ -3,7 +3,7 @@
 @section('body')
     
     <div class="grid grid-rows gap-2 lg:grid-cols-2 lg:gap-2">
-        <div id="content">
+        <div id="content" class="break-words">
             <h2>Hello</h2>
             <h3>My name is Octoper <span class="text-gray-600 text-base">(or just Vaggelis)</span> </h3>
             <p class="text-black text-lg">
