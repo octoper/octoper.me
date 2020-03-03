@@ -10,17 +10,17 @@
         Contact
     </a>
 
-    <a title="{{ $page->siteName }} Github" href="{{ $page->social->github }}"
+    <a title="{{ $page->siteName }} Github" rel="noopener" target="_blank" href="{{ $page->social->github }}"
         class="ml-6 text-gray-700 hover:text-gray-900">
         @include('_assets.GitHub')
     </a>
 
-    <a title="{{ $page->siteName }} Twitter" href="{{ $page->social->twitter }}"
+    <a title="{{ $page->siteName }} Twitter" rel="noopener" target="_blank" href="{{ $page->social->twitter }}"
         class="ml-6 text-gray-700 hover:text-gray-900">
         @include('_assets.Twitter')
     </a>
 
-    <a title="{{ $page->siteName }} Contact" href="{{ $page->social->email }}"
+    <a title="{{ $page->siteName }} Contact" rel="noopener" target="_blank" href="{{ $page->social->email }}"
         class="ml-6 text-gray-700 hover:text-gray-900">
         @include('_assets.at')
     </a>

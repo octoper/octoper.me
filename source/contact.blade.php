@@ -11,7 +11,7 @@
 <h1>Contact</h1>
 
 <p class="mb-8">
-    Static sites are unable to handle form submissions. However, there are third-party services, like Tighten’s <a href="https://fieldgoal.io" title="FieldGoal">FieldGoal</a>, which can accept the form submission, email you the result, and redirect back to a thank you page.
+    Hey, if you want to get in touch with me about anything submit this form and I will reach out ass soon I can.
 </p>
 
 <form name="contact" netlify class="mb-12">
