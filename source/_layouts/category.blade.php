@@ -24,3 +24,7 @@
 
     @include('_components.newsletter-signup')
 @stop
+
+@push('scripts')
+<script src="{{ mix('js/blog.js', 'assets/build') }}"></script>
+@endpush

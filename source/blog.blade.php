@@ -60,5 +60,5 @@ pagination:
 @stop
 
 @push('scripts')
-<script defer src="{{ mix('js/blog.js', 'assets/build') }}" async></script>
+<script src="{{ mix('js/blog.js', 'assets/build') }}"></script>
 @endpush
