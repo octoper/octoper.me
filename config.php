@@ -3,16 +3,17 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://octoper.me',
     'production' => false,
-    'siteName' => 'Octoper',
-    'siteDescription' => 'Vaggelis Yfantis academic website.',
+    'siteName' => 'Vaggelis Yfantis',
+    'nickname' => 'Octoper',
+    'siteDescription' => 'Vaggelis Yfantis is a web developer base in Herakleion, Greece',
     'siteAuthor' => 'Vaggelis Yfantis',
 
     'social' => [
-        'twitter' => 'https://twitter.com/itsoctoper',
-        'github'  => 'https://github.com/octoper',
-        'email'   => 'mailto:contact@octoper.me'
+        'twitter' => 'itsoctoper',
+        'github'  => 'octoper',
+        'email'   => 'contact@octoper.me'
     ],
 
     // collections

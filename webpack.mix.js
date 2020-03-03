@@ -14,6 +14,7 @@ mix.webpackConfig({
         build.watch([
             'config.php',
             'source/**/*.md',
+            'source/**/*.txt',
             'source/**/*.php',
             'source/**/*.scss',
         ]),

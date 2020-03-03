@@ -48,10 +48,10 @@
 
         <div class="row-start-1 lg:row-start-auto">
             <picture>
-                <source type="image/webp" srcset="/assets/img/about.webp">
-                <source type="image/jpeg" srcset="/assets/img/about.jpg">
-                <img src="/assets/img/about.jpg" alt="Octoper Avatar"
-                class="rounded-full h-64 w-64 bg-contain mx-auto my-6">
+                <source type="image/webp" data-srcset="/assets/img/about.webp">
+                <source type="image/jpeg" data-srcset="/assets/img/about.jpg">
+                <img data-src="/assets/img/about.jpg" alt="Octoper Avatar"
+                class="lazyload rounded-full h-64 w-64 bg-contain mx-auto my-6">
             </picture>
         </div>
     </div>

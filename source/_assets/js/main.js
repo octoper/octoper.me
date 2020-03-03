@@ -5,8 +5,9 @@ window.Vue = require('vue');
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/highlight';
 import { listen } from "quicklink";
+import 'lazysizes';
 
-// Syntax highlighting
+
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
 hljs.registerLanguage('css', require('highlight.js/lib/languages/css'));
 hljs.registerLanguage('html', require('highlight.js/lib/languages/xml'));
@@ -29,4 +30,7 @@ new Vue({
     },
 }).$mount('#vue-search');
 
-listen();
+window.addEventListener('load', function () {
+    listen();
+});
+
