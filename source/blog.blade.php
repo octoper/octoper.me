@@ -17,13 +17,18 @@ pagination:
 
     <hr class="border-b my-6">
 
-    @foreach ($pagination->items as $post)
-        @include('_components.post-preview-inline')
 
-        @if ($post != $pagination->items->last())
-            <hr class="border-b my-6">
-        @endif
-    @endforeach
+    @if($pagination->items->count())
+        @foreach ($pagination->items as $post)
+            @include('_components.post-preview-inline')
+
+            @if ($post != $pagination->items->last())
+                <hr class="border-b my-6">
+            @endif
+        @endforeach
+    @else
+        <h1>I haven't post anything yert</h1>
+    @endif
 
     @if ($pagination->pages->count() > 1)
         <nav class="flex text-base my-8">
