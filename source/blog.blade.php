@@ -58,3 +58,7 @@ pagination:
         </nav>
     @endif
 @stop
+
+@push('scripts')
+<script src="{{ mix('js/blog.js', 'assets/build') }}" async></script>
+@endpush

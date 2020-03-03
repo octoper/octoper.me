@@ -7,7 +7,7 @@ return [
     'production' => false,
     'siteName' => 'Vaggelis Yfantis',
     'nickname' => 'Octoper',
-    'siteDescription' => 'Vaggelis Yfantis is a web developer base in Herakleion, Greece',
+    'siteDescription' => 'Vaggelis Yfantis is a web developer based in Herakleion, Greece',
     'siteAuthor' => 'Vaggelis Yfantis',
 
     'social' => [

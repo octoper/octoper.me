@@ -31,7 +31,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
-        <a class="sr-only py-4 px-4" href="#main">Skip to main content</a>
+        <a class="sr-only py-4 px-4 w-full focus:not-sr-only" href="#main">Skip to main content</a>
         <header class="flex items-center bg-white border-b shadow-md border-gray-300 h-16 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
