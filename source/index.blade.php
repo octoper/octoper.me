@@ -54,5 +54,6 @@
                 class="rounded-full h-64 w-64 bg-contain mx-auto my-6">
             </picture>
         </div>
+    </div>
     @include('_components.newsletter-signup')
 @endsection
