@@ -31,7 +31,7 @@ jobs:
     - name: Build Website for Production
       run: npm run production
     - name: Add 404 page!
-      run: cp build_productions/404/index.html build_production/404.html
+      run: cp build_production/404/index.html build_production/404.html
     - name: Build and Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
