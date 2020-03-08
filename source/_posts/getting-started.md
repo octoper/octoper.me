@@ -8,8 +8,11 @@ featured: true
 ---
 
 ## Welcome 
+Hey,
+Welcome to my new personal website!
+O
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTc3MjY5NV19
+eyJoaXN0b3J5IjpbLTczNDk2NDMyMSwxNDUxNzcyNjk1XX0=
 -->
