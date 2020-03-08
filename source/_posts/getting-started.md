@@ -1,9 +1,9 @@
 ---
 extends: _layouts.post
 section: content
-title: Getting Started
-date: 2018-12-25
-description: Getting started with the Jigsaw blog starter template
+title: Getting StartedWelcome!
+date: 2018-12-2520-03-09
+description: Getting started with the Jigsaw blog starter templateWelcome to my new 
 cover_image: /assets/img/post-cover-image-2.png
 featured: true
 categories: [configuration]
@@ -72,3 +72,6 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, staging, production
 npm run dev
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTM5NDMxNjg0XX0=
+-->
