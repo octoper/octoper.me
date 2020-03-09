@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://octoper.me',
+    'baseUrl' => 'http://localhost:3000',
     'production' => false,
     'siteName' => 'Vaggelis Yfantis',
     'nickname' => 'Octoper',
