@@ -1,0 +1,21 @@
+language: php
+php:
+  - '7.3'
+
+before_script:
+  - composer install
+  - npm i
+
+
+script:
+  - npm run production
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  target_branch: gh-pages
+  local_dir: ./build_production
+  on:
+    branch: master

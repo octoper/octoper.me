@@ -3,7 +3,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Quicksand'
+          'Quicksand',
+          'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif'
         ],
         mono: [
           'monospace',
@@ -45,7 +46,9 @@ module.exports = {
     width: ['responsive', 'focus']
   },
   plugins: [
-    function({ addUtilities }) {
+    function ({
+      addUtilities
+    }) {
       const newUtilities = {
         '.transition-fast': {
           transition: 'all .2s ease-out',
