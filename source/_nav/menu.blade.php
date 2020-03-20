@@ -20,7 +20,7 @@
         @include('_assets.Twitter')
     </a>
 
-    <a title="{{ $page->siteName }} Contact" rel="noopener" target="_blank" href="{{ $page->social->email }}"
+    <a title="{{ $page->siteName }} Contact" rel="noopener" target="_blank" href="mailto:{{ $page->social->email }}"
         class="ml-6 text-gray-500 hover:text-gray-900">
         @include('_assets.at')
     </a>
