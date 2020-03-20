@@ -2,7 +2,7 @@
 
 @section('body')
 
-<div class="grid grid-rows lg:grid-cols-2 px-4 mt-10 lg:gap-2">
+<div class="grid grid-rows lg:grid-cols-2 mt-10 lg:gap-2">
     <div id="content" class="break-words">
         <h1 class="font-medium font-righteous text-6xl">Hey!</h1>
         <p class="text-black text-lg mt-16">
