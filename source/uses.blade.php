@@ -5,8 +5,6 @@
 
 <hr class="border-b my-6">
 
-
-
 <h2 class="underline text-4xl">Editor & Terminal</h2>
 <ul class="text-lg ml-8">
     <li><span class="font-bold">Editor:</span>

@@ -2,15 +2,14 @@
 
 @section('body')
 
-<div class="grid grid-rows gap-2 lg:grid-cols-2 lg:gap-2">
+<div class="grid grid-rows lg:grid-cols-2 px-4 mt-10 lg:gap-2">
     <div id="content" class="break-words">
-        <h1 class="font-medium">Hello</h1>
-        <h3 class="font-medium">My name is Vaggelis</h3>
-        <p class="text-black text-lg">
-            I'm a full-stack web developer, I live in Heraklion, Greece and I'm also
-            a student at <a href="https://www.csd.uoc.gr/CSD/index.jsp?lang=en"
-                title="Computer Science Department">Computer Science Department</a> of
-            <a href="http://en.uoc.gr/" title="University of Crete">University of Crete</a>.
+        <h1 class="font-medium font-righteous text-6xl">Hey!</h1>
+        <p class="text-black text-lg mt-16">
+            My name is Vaggelis and I'm a full-stack web developer, I live in Heraklion, Greece and I'm also
+            a student at <br class="hidden lg:block"> <a href="https://www.csd.uoc.gr/CSD/index.jsp?lang=en"
+                title="Computer Science Department" class="under">Computer Science Department</a> of
+            <a href="http://en.uoc.gr/" title="University of Crete" class="under">University of Crete</a>.
         </p>
 
         <p class="text-lg">
@@ -33,13 +32,13 @@
         <div class="mt-6 flex flex-col lg:flex-row">
             <a href="/contact">
                 <div
-                    class="w-full shadow-sm rounded lg:w-32 text-center hover:text-white py-3 px-4 text-white bg-blue-700">
+                    class="w-full shadow-sm rounded lg:w-32 text-center hover:text-white py-3 px-4 text-white bg-gray-900">
                     Contact me
                 </div>
             </a>
             <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/x9Amckg">
                 <div
-                    class="mt-4 lg:mt-0 lg:ml-4 w-full shadow-sm flex justify-center items-center rounded hover:text-white py-3 px-4 text-white bg-blue-700">
+                    class="mt-4 lg:mt-0 lg:ml-4 w-full shadow-sm flex justify-center items-center rounded hover:text-white py-3 px-4 text-white bg-gray-900">
                     @include('_assets.bmc')
                     Buy me a coffee
                 </div>
@@ -47,14 +46,6 @@
         </div>
     </div>
 
-    <div class="row-start-1 lg:row-start-auto">
-        <picture>
-            <source type="image/webp" data-srcset="/assets/img/about.webp">
-            <source type="image/jpeg" data-srcset="/assets/img/about.jpg">
-            <img data-src="/assets/img/about.jpg" alt="Octoper Avatar"
-                class="lazyload rounded-full h-64 w-64 bg-contain mx-auto my-6">
-        </picture>
-    </div>
 </div>
 @include('_components.newsletter-signup')
 @endsection

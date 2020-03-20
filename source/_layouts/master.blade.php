@@ -27,19 +27,20 @@
     <!-- Insert analytics code here -->
     @endif
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
 <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
     <a class="sr-only py-4 px-4 w-full focus:not-sr-only" href="#main">Skip to main content</a>
-    <header class="flex items-center bg-white border-b shadow-md border-gray-300 h-16 py-4" role="banner">
+    <header class="flex items-center bg-white h-16 py-4 lg:py-16" role="banner">
         <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
             <div class="flex items-center">
                 <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-
-                    <h1 class="text-lg md:text-2xl text-gray-700 font-medium hover:text-gray-900 my-0">
-                        {{ $page->siteName }}</h1>
+                    <h1 class="text-lg md:text-2xl border-b-2 border-t-2 border-gray-900 uppercase font-righteous text-gray-500 font-medium hover:text-gray-900 my-0">
+                        Octoper
+                    </h1>
                 </a>
             </div>
 
@@ -58,7 +59,7 @@
 
     @include('_nav.menu-responsive')
 
-    <main role="main" id="main" class="flex-auto w-full container mx-auto py-16 px-6">
+    <main role="main" id="main" class="flex-auto w-full container mx-auto py-20">
         @yield('body')
     </main>
 

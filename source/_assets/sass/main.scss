@@ -10,3 +10,44 @@
 @import 'blog';
 
 @tailwind utilities;
+
+.under {
+    @apply relative;
+
+    transition: all 600ms ease;
+    @apply border-b border-gray-200;
+
+    &:hover,
+    &:focus,
+    &:active {
+
+        @apply border-black border-b-2;
+        width: 100%;
+    }
+}
+
+.under-1 {
+    @apply relative;
+
+    &::after {
+        content: ' ';
+        transition: all 600ms ease;
+        width: 0%;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 1;
+        @apply border-b border-gray-200;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+
+        &::before,
+        &::after {
+            @apply border-black border-b-2;
+            width: 100%;
+        }
+    }
+}

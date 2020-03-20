@@ -1,10 +1,27 @@
 module.exports = {
   theme: {
     extend: {
+      colors: {
+        'gray': {
+          100: '#E9EAEA',
+          200: '#C8CACB',
+          300: '#A7A9AB',
+          400: '#66696D',
+          500: '#24292E',
+          600: '#202529',
+          700: '#16191C',
+          800: '#101215',
+          900: '#0B0C0E',
+        },
+      },
       fontFamily: {
         sans: [
-          'Quicksand',
+          'Montserrat',
           'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif'
+        ],
+        righteous: [
+          'Righteous',
+          'cursive'
         ],
         mono: [
           'monospace',
@@ -25,6 +42,7 @@ module.exports = {
       },
       boxShadow: {
         'lg': '0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08)',
+        'outline': '0 0 0 3px rgba(36, 41, 46,0.5)',
       }
     },
     fontSize: {
