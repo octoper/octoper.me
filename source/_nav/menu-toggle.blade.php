@@ -1,5 +1,5 @@
 <button title="Dark Mode Toggle" x-data="colorMode()"  @click.prevent="toggle()" x-init="init()"
-    class="flex justify-center dark:text-gray-100 mr-4 p-4 dark-hover:text-white text-gray-700">
+    class="flex justify-center dark:text-gray-100 mr-4 p-4 dark-hover:text-white lg:hidden text-gray-700">
     <svg fill="none" stroke="currentColor" :class="{ 'hidden': mode == false }"
     class="fill-current h-6 h-6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8"><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
     <svg fill="none" stroke="currentColor" :class="{ 'hidden': mode == true }"
