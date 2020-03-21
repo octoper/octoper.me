@@ -32,13 +32,14 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
-<body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
+<body class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white   text-gray-800 leading-normal font-sans">
     <a class="sr-only py-4 px-4 w-full focus:not-sr-only" href="#main">Skip to main content</a>
-    <header class="flex items-center bg-white h-16 py-4 lg:py-16" role="banner">
+    <header class="flex items-center dark:bg-black bg-white h-16 py-4 lg:py-16" role="banner">
         <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
             <div class="flex items-center">
                 <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                    <h1 class="text-lg md:text-2xl border-b-2 border-t-2 border-gray-900 uppercase font-righteous text-gray-500 font-medium hover:text-gray-900 my-0">
+                    <h1 class="text-lg md:text-2xl border-b-2 border-t-2 dark:border-gray-200 dark-hover:border-white border-gray-900 uppercase font-righteous
+                    dark:text-gray-100 dark-hover:text-white text-gray-500 font-medium hover:text-gray-900 my-0">
                         Octoper
                     </h1>
                 </a>
@@ -46,9 +47,9 @@
 
             <div id="vue-search" class="flex flex-1 justify-end items-center">
 
-                @if( strpos($page->getPath(), "blog") )
-                <search></search>
-                @endif
+                {{-- @if( strpos($page->getPath(), "blog") )
+                    @include('_components.search')
+                @endif --}}
 
                 @include('_nav.menu')
 
@@ -63,7 +64,7 @@
         @yield('body')
     </main>
 
-    <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+    <footer class="dark:bg-black dark:text-white bg-white text-center text-sm mt-12 py-4" role="contentinfo">
         <ul class="flex flex-col justify-center list-none">
             <li>
                 Built with ❤️ using <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>

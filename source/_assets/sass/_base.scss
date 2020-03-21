@@ -12,8 +12,20 @@ a {
     }
 }
 
+.mode-dark {
+    a {
+        @apply .font-normal;
+        @apply .no-underline;
+        @apply .text-gray-100;
+
+        &:hover {
+            @apply .text-white;
+        }
+    }
+}
+
 blockquote {
-    @apply .border-blue-400;
+    @apply .border-gray-400;
     @apply .border-l-4;
     @apply .font-normal;
     @apply .italic;
@@ -56,6 +68,17 @@ h6 {
 
     &:first-child {
         @apply .mt-0;
+    }
+}
+
+.mode-dark {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply .text-white;
     }
 }
 
@@ -144,4 +167,14 @@ pre {
 ::selection {
     @apply .bg-gray-500;
     @apply .text-white;
+}
+
+.button {
+    @apply shadow-md bg-gray-900 text-white text-base font-medium rounded;
+}
+
+.mode-dark {
+    .button {
+        @apply bg-gray-500;
+    }
 }

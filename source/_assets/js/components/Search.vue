@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-1 justify-end items-center text-right px-4">
     <div
-      class="absolute md:relative w-full justify-end bg-white mt-16 md:mt-0 left-0 z-10 px-4 md:px-0"
+      class="absolute md:relative w-full justify-end mt-16 md:mt-0 left-0 z-10 px-4 md:px-0"
       :class="{'hidden md:flex': ! searching}"
     >
       <label for="search" class="hidden">Search</label>
@@ -10,7 +10,7 @@
         id="search"
         v-model="query"
         ref="search"
-        class="transition-fast rounded relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-gray-100 border-2 border-gray-300 focus:shadow-outline outline-none cursor-pointer text-gray-700 px-4 pb-0 pt-px"
+        class="transition-fast rounded relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-gray-100 focus:shadow-outline outline-none cursor-pointer text-gray-700 px-4 pb-0 pt-px"
         :class="{ 'transition-border': query }"
         autocomplete="off"
         name="search"
@@ -67,10 +67,10 @@
     <button
       title="Start searching"
       type="button"
-      class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-500 focus:outline-none h-10 px-3"
+      class="flex md:hidden dark:bg-gray-800 bg-gray-100 hover:bg-gray-200 justify-center items-center focus:outline-none h-10 px-3"
       @click.prevent="showInput"
     >
-      <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none" />
+      <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="fill-current text-gray-900 h-4 w-4 max-w-none" />
     </button>
   </div>
 </template>

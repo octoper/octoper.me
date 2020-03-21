@@ -5,7 +5,7 @@
 <div class="grid grid-rows lg:grid-cols-2 mt-10 lg:gap-2">
     <div id="content" class="break-words">
         <h1 class="font-medium font-righteous text-6xl">Hey!</h1>
-        <p class="text-black text-lg mt-16">
+        <p class="dark:text-white text-black text-lg mt-16">
             My name is Vaggelis and I'm a full-stack web developer, I live in Heraklion, Greece and I'm also
             a student at <br class="hidden lg:block"> <a href="https://www.csd.uoc.gr/CSD/index.jsp?lang=en"
                 title="Computer Science Department" class="under">Computer Science Department</a> of
@@ -32,13 +32,13 @@
         <div class="mt-6 flex flex-col lg:flex-row">
             <a href="/contact">
                 <div
-                    class="w-full shadow-sm rounded lg:w-32 text-center hover:text-white py-3 px-4 text-white bg-gray-900">
+                    class="w-full shadow-sm rounded lg:w-32 text-center py-3 px-4 button">
                     Contact me
                 </div>
             </a>
             <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/x9Amckg">
                 <div
-                    class="mt-4 lg:mt-0 lg:ml-4 w-full shadow-sm flex justify-center items-center rounded hover:text-white py-3 px-4 text-white bg-gray-900">
+                    class="mt-4 lg:mt-0 lg:ml-4 w-full flex justify-center py-3 px-4 items-center button">
                     @include('_assets.bmc')
                     Buy me a coffee
                 </div>

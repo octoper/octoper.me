@@ -15,3 +15,9 @@
     @apply .text-gray-800;
     @apply .text-sm;
 }
+
+.mode-dark {
+    .nav-menu {
+        @apply .bg-gray-800;
+    }
+}

@@ -3,9 +3,9 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://localhost:3000',
+    'baseUrl' => 'http://octoper.test',
     'production' => false,
-    'siteName' => 'Vaggelis Yfantis',
+    'siteName' => 'Octoper',
     'nickname' => 'Octoper',
     'siteDescription' => 'Vaggelis Yfantis a full-stack web developer based in Herakleion, Greece',
     'siteAuthor' => 'Vaggelis Yfantis',

@@ -51,3 +51,16 @@
         }
     }
 }
+
+.mode-dark {
+    .under-1 {
+        &:hover,
+        &:focus,
+        &:active {
+            &::before,
+            &::after {
+                @apply border-white;
+            }
+        }
+    }
+}

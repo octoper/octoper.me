@@ -15,7 +15,7 @@
     </li>
     <li><span class="font-bold">Coding Font:</span>
         I used the VS Code defaulta lot but now I'm using the awesome <a href="https://www.jetbrains.com/lp/mono/"
-            target="_blank" rel="noopener">JetBrains Mono</a>
+            target="_blank" class="under" rel="noopener">JetBrains Mono</a>
     </li>
 </ul>
 
