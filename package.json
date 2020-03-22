@@ -30,7 +30,6 @@
         "yargs": "^4.6.0"
     },
     "dependencies": {
-        "alpinejs": "^2.2.1",
         "comlink": "^4.2.0",
         "lazysizes": "^5.2.0",
         "quicklink": "^2.0.0-alpha"
