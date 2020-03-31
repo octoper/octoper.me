@@ -745,6 +745,10 @@ a:hover {
   color: #000;
 }
 
+* {
+  transition: background-color 500ms ease-in-out;
+}
+
 .mode-dark a {
   font-weight: 400;
   text-decoration: none;
