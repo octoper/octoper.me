@@ -1,4 +1,3 @@
-import { listen } from "quicklink";
 import 'alpinejs';
 
 window.ToggleDark = () => {
@@ -26,7 +25,3 @@ window.ToggleDark = () => {
 		}
 	}
 }
-
-window.addEventListener('load', function () {
-    listen();
-});
