@@ -1,3 +1,4 @@
+import { listen } from "quicklink";
 import 'alpinejs';
 
 window.ToggleDark = () => {
