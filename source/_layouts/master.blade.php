@@ -74,15 +74,6 @@
 
 
     </div>
-    <script>
-        // Check that service workers are supported
-        if ('serviceWorker' in navigator) {
-          // Use the window load event to keep the page load performant
-          window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./service-worker.js');
-          });
-        }
-    </script>
     <script src="{{ mix('js/manifest.js', 'assets/build') }}" defer></script>
     <script src="{{ mix('js/vendor.js', 'assets/build') }}" defer></script>
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
