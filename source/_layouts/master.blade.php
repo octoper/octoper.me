@@ -22,9 +22,7 @@
 
     @stack('meta')
 
-    <style>
-        {{ file_get_contents(public_path('assets/build/css/main.css')) }}
-    </style>
+    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
 <body x-data="{ openNav: false }" class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white text-gray-800 leading-normal font-sans">

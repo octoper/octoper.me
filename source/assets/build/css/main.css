@@ -742,11 +742,11 @@ video {
 
   font-display: swap;
 
-  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.eot");
+  src: url("../../fonts/montserrat-v14-latin-300.eot");
 
   /* IE9 Compat Modes */
 
-  src: local("Montserrat Light"), local("Montserrat-Light"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.ttf") format("truetype");
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("../../fonts/montserrat-v14-latin-300.woff2") format("woff2"), url("../../fonts/montserrat-v14-latin-300.woff") format("woff"), url("../../fonts/montserrat-v14-latin-300.ttf") format("truetype");
 }
 
 /* montserrat-regular - latin */
@@ -760,11 +760,11 @@ video {
 
   font-display: swap;
 
-  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.eot");
+  src: url("../../fonts/montserrat-v14-latin-regular.eot");
 
   /* IE9 Compat Modes */
 
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.ttf") format("truetype");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../../fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("../../fonts/montserrat-v14-latin-regular.woff") format("woff"), url("../../fonts/montserrat-v14-latin-regular.ttf") format("truetype");
 }
 
 /* montserrat-700 - latin */
@@ -778,11 +778,11 @@ video {
 
   font-display: swap;
 
-  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.eot");
+  src: url("../../fonts/montserrat-v14-latin-700.eot");
 
   /* IE9 Compat Modes */
 
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.ttf") format("truetype");
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../../fonts/montserrat-v14-latin-700.woff2") format("woff2"), url("../../fonts/montserrat-v14-latin-700.woff") format("woff"), url("../../fonts/montserrat-v14-latin-700.ttf") format("truetype");
 }
 
 /* righteous-regular - latin */
@@ -796,11 +796,11 @@ video {
 
   font-display: swap;
 
-  src: url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.eot");
+  src: url("../../fonts/righteous-v8-latin-regular.eot");
 
   /* IE9 Compat Modes */
 
-  src: local("Righteous"), local("Righteous-Regular"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.woff2") format("woff2"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.woff") format("woff"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.ttf") format("truetype"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.svg#Righteous") format("svg");
+  src: local("Righteous"), local("Righteous-Regular"), url("../../fonts/righteous-v8-latin-regular.woff2") format("woff2"), url("../../fonts/righteous-v8-latin-regular.woff") format("woff"), url("../../fonts/righteous-v8-latin-regular.ttf") format("truetype"), url("../../fonts/righteous-v8-latin-regular.svg#Righteous") format("svg");
 
   /* Legacy iOS */
 }
