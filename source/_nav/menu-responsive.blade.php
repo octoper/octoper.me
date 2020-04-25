@@ -1,4 +1,4 @@
-<nav id="js-nav-menu" class="nav-menu text-center hidden lg:hidden">
+<nav :class="{'hidden': !openNav }" class="nav-menu text-center hidden lg:hidden">
     <ul class="my-0">
         <li class="pl-4">
             <a

@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 
+@import 'fonts';
+
 // Code syntax highlighting,
 // powered by https://highlightjs.org
 @import '~highlight.js/styles/a11y-light.css';
@@ -10,6 +12,10 @@
 @import 'blog';
 
 @tailwind utilities;
+
+[x-cloack] {
+    display: none;
+}
 
 .under {
     @apply relative;

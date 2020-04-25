@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://octoper.test',
+    'baseUrl' => 'http://octoper.me.test',
     'production' => false,
     'siteName' => 'Octoper',
     'nickname' => 'Octoper',
@@ -13,7 +13,7 @@ return [
     'social' => [
         'twitter' => 'itsoctoper',
         'github'  => 'octoper',
-        'email'   => 'contact@octoper.me'
+        'email'   => 'me@octoper.me'
     ],
 
     // collections

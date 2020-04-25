@@ -523,7 +523,7 @@ ul {
  */
 
 html {
-  font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif; /* 1 */
+  font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -731,8 +731,83 @@ video {
   }
 }
 
+/* montserrat-300 - latin */
+
+@font-face {
+  font-family: "Montserrat";
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  font-display: swap;
+
+  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.eot");
+
+  /* IE9 Compat Modes */
+
+  src: local("Montserrat Light"), local("Montserrat-Light"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-300.ttf") format("truetype");
+}
+
+/* montserrat-regular - latin */
+
+@font-face {
+  font-family: "Montserrat";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.eot");
+
+  /* IE9 Compat Modes */
+
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-regular.ttf") format("truetype");
+}
+
+/* montserrat-700 - latin */
+
+@font-face {
+  font-family: "Montserrat";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.eot");
+
+  /* IE9 Compat Modes */
+
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.woff2") format("woff2"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.woff") format("woff"), url("https://octoper.me/assets/fonts/montserrat-v14-latin-700.ttf") format("truetype");
+}
+
+/* righteous-regular - latin */
+
+@font-face {
+  font-family: "Righteous";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.eot");
+
+  /* IE9 Compat Modes */
+
+  src: local("Righteous"), local("Righteous-Regular"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.woff2") format("woff2"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.woff") format("woff"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.ttf") format("truetype"), url("https://octoper.me/assets/fonts/righteous-v8-latin-regular.svg#Righteous") format("svg");
+
+  /* Legacy iOS */
+}
+
 body {
   font-size: 16px;
+  font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
 a {
@@ -950,7 +1025,7 @@ pre code {
   margin-bottom: 1rem;
   margin-top: 0;
   color: #101215;
-  font-size: .925rem;
+  font-size: 1rem;
 }
 
 .mode-dark .nav-menu {
@@ -5956,7 +6031,7 @@ pre code {
 }
 
 .font-sans{
-  font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
 .font-serif{
@@ -17145,6 +17220,10 @@ pre code {
   transition: all .5s ease-out;
 }
 
+[x-cloack] {
+  display: none;
+}
+
 .under {
   position: relative;
   transition: all 600ms ease;
@@ -18464,7 +18543,7 @@ pre code {
   }
 
   .sm\:font-sans{
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
   }
 
   .sm\:font-serif{
@@ -29438,7 +29517,7 @@ pre code {
   }
 
   .md\:font-sans{
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
   }
 
   .md\:font-serif{
@@ -40412,7 +40491,7 @@ pre code {
   }
 
   .lg\:font-sans{
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
   }
 
   .lg\:font-serif{
@@ -51386,7 +51465,7 @@ pre code {
   }
 
   .xl\:font-sans{
-    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
   }
 
   .xl\:font-serif{

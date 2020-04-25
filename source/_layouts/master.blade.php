@@ -18,7 +18,6 @@
     <link rel="icon" type="image/jpeg" href="/assets/img/about.jpg">
     <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
-    <link rel="preload" href="{{ mix('css/main.css', 'assets/build') }}" as="style">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
 
     @stack('meta')
@@ -26,13 +25,16 @@
     @if ($page->production)
     <!-- Insert analytics code here -->
     @endif
-
+{{--
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> --}}
+    {{-- <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}"> --}}
+    <style>
+        {{ file_get_contents(public_path('assets/build/css/main.css')) }}
+    </style>
 </head>
 
-<body class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white text-gray-800 leading-normal font-sans">
+<body x-data="{ openNav: false }" class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white text-gray-800 leading-normal font-sans">
     <div id="website">
         <a class="sr-only py-4 px-4 w-full focus:not-sr-only" href="#main">Skip to main content</a>
         <header class="flex items-center dark:bg-black bg-white h-16 py-4 lg:py-16" role="banner">
@@ -77,21 +79,7 @@
 
 
     </div>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110449879-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-110449879-2');
-    </script>
-
-    <script src="{{ mix('js/main.js', 'assets/build') }}" async></script>
-
+    <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     @stack('scripts')
 </body>
 

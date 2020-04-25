@@ -535,7 +535,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var high
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/octoper/Workspace/private/yohoo/source/_assets/js/blog.js */"./source/_assets/js/blog.js");
+module.exports = __webpack_require__(/*! /home/octoper/code/private/octoper.me/source/_assets/js/blog.js */"./source/_assets/js/blog.js");
 
 
 /***/ })
