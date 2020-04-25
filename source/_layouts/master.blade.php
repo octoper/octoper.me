@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="preload" as="script" href="assets/build/js/main.js">
+    <link rel="preload" as="style" href="assets/build/css/main.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -22,11 +24,10 @@
     <link rel="icon" type="image/jpeg" href="/assets/img/about.jpg">
     <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
 
     @stack('meta')
-
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    @include('_assets.style')
+    {{-- <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}"> --}}
 </head>
 
 <body x-data="{ openNav: false }" class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white text-gray-800 leading-normal font-sans">

@@ -2,6 +2,7 @@ let mix = require('laravel-mix');
 let build = require('./tasks/build.js');
 let tailwindcss = require('tailwindcss');
 require('laravel-mix-purgecss');
+require('laravel-mix-critical');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build/');
@@ -35,4 +36,13 @@ mix.js('source/_assets/js/main.js', 'js')
         whitelist: ['mode-dark']
     })
     .extract()
+    .critical({
+        enabled: mix.inProduction(),
+        urls: [
+            { src: 'https://octoper.me', dest: 'public/css/index_critical.min.css' },
+        ],
+        options: {
+            minify: true,
+        },
+    })
     .version();
