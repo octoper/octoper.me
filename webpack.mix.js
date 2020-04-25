@@ -36,13 +36,4 @@ mix.js('source/_assets/js/main.js', 'js')
         whitelist: ['mode-dark']
     })
     .extract()
-    .critical({
-        enabled: mix.inProduction(),
-        urls: [
-            { src: 'https://octoper.me', dest: 'public/css/index_critical.min.css' },
-        ],
-        options: {
-            minify: true,
-        },
-    })
     .version();
