@@ -1,6 +1,3 @@
-window.axios = require('axios');
-window.Fuse = require('fuse.js');
-
 import hljs from 'highlight.js/lib/highlight';
 
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));

@@ -22,13 +22,6 @@
 
     @stack('meta')
 
-    @if ($page->production)
-    <!-- Insert analytics code here -->
-    @endif
-{{--
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> --}}
-    {{-- <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}"> --}}
     <style>
         {{ file_get_contents(public_path('assets/build/css/main.css')) }}
     </style>
@@ -84,5 +77,4 @@
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     @stack('scripts')
 </body>
-
 </html>
