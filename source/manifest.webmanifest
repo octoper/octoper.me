@@ -1,0 +1,9 @@
+{
+	"short_name": "{{ $page->siteName }}",
+	"name": "{{ $page->siteName }}",
+	"description": "{{ $page->siteDescription }}",
+	"start_url": "/",
+	"background_color": "#ffffff",
+	"display": "minimal-ui",
+	"theme_color": "#24292E"
+  }
