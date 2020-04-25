@@ -34,4 +34,5 @@ mix.js('source/_assets/js/main.js', 'js')
         whitelistPatterns: [/language/, /hljs/, /mce/,],
         whitelist: ['mode-dark']
     })
+    .extract()
     .version();
