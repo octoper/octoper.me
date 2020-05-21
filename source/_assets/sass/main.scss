@@ -14,7 +14,7 @@
 @tailwind utilities;
 
 [x-cloack] {
-    display: none;
+    display: none !important;
 }
 
 .under {

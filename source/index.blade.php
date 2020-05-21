@@ -2,7 +2,7 @@
 
 @section('body')
 
-<div class="grid grid-rows lg:grid-cols-2 mt-10 lg:gap-2">
+<div class="grid grid-rows xl:grid-cols-2 mt-10 xl:gap-2">
     <div id="content" class="break-words">
         <h1 class="font-medium font-righteous text-6xl">Hey!</h1>
         <p class="dark:text-white text-black text-lg mt-16">
@@ -23,8 +23,8 @@
 
         <p class="text-lg">
             I'm passionate about PWA's, Javascript, Rust and Python.<br>
-            Oh! and I forgot to say that I'm website performance freak, I try to make every site
-            as performance as possible (I'm getting very angry when PageSpeeds show's score < 85) </p> <p>
+            Oh! and I forgot to say that I'm performance freak, I try to make every site
+            as performant as possible (I'm getting very angry when PageSpeeds show's score < 85) </p> <p>
                 I you want know if I'm available for hire or If you would like to support me and make it
                 possible for me to continue sharing resources for free, you could donate through the Buy me a coffee
                 button below.

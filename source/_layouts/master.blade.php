@@ -3,7 +3,6 @@
 
 <head>
     <link rel="preload" as="script" href="assets/build/js/main.js">
-    <link rel="preload" as="style" href="assets/build/css/main.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -18,7 +17,7 @@
 
     <title>{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="manifest" href="/manifest.json" />
 
     <link rel="home" href="{{ $page->baseUrl }}">
     <link rel="icon" type="image/jpeg" href="/assets/img/about.jpg">
@@ -26,6 +25,7 @@
 
 
     @stack('meta')
+
     @include('_assets.style')
     {{-- <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}"> --}}
 </head>
