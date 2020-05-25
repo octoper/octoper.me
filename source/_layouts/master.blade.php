@@ -4,6 +4,8 @@
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <link rel="preconnect" href="https://storage.googleapis.com/">
+    <link rel="dns-prefetch" href="https://storage.googleapis.com/">
 
     <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/manifest.js">
     <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/vendor.js">
