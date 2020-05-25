@@ -2,7 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="preload" as="script" href="assets/build/js/main.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/manifest.js">
+    <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/vendor.js">
+    <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/main.js">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,6 +17,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}" />
     <meta property="og:description" content="{{ $page->siteDescription }}" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Righteous&display=swap"
+    media="print" onload="this.media='all'" crossorigin="anonymous" rel="stylesheet">
 
     <meta name="theme-color" content="#24292E"/>
 
@@ -75,9 +83,9 @@
 
 
     </div>
-    <script src="{{ mix('js/manifest.js', 'assets/build') }}" defer></script>
-    <script src="{{ mix('js/vendor.js', 'assets/build') }}" defer></script>
-    <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script src="{{ $page->baseUrl }}{{ mix('js/manifest.js', 'assets/build') }}" defer></script>
+    <script src="{{ $page->baseUrl }}{{ mix('js/vendor.js', 'assets/build') }}" defer></script>
+    <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
     @stack('scripts')
 </body>
 </html>
