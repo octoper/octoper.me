@@ -60,5 +60,5 @@ pagination:
 @stop
 
 @push('scripts')
-<script src="{{ mix('js/blog.js', 'assets/build') }}"></script>
+<script src="{{ $page->baseUrl }}{{ mix('js/blog.js', 'assets/build') }}"></script>
 @endpush
