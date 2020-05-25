@@ -29,6 +29,7 @@
         "tailwindcss-dark-mode": "^1.1.3",
         "vue": "^2.5.21",
         "vue-template-compiler": "^2.5.21",
+        "workbox-webpack-plugin": "^5.1.3",
         "yargs": "^4.6.0"
     },
     "dependencies": {

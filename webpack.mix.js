@@ -17,7 +17,7 @@ mix.webpackConfig({
             'source/**/*.php',
             'source/**/*.scss',
         ]),
-    ],
+    ]
 });
 
 mix.js('source/_assets/js/main.js', 'js')

@@ -1,9 +1,21 @@
 {
-	"short_name": "{{ $page->siteName }}",
-	"name": "{{ $page->siteName }}",
-	"description": "{{ $page->siteDescription }}",
+	"short_name": "Octoper",
+	"name": "Octoper",
+	"description": "Vaggelis Yfantis a full-stack web developer based in Herakleion, Greece",
 	"start_url": "/",
+	"icons": [
+		{
+			"src": "/assets/img/about.jpg",
+			"sizes": "200x200",
+			"type": "image/jpeg"
+		},
+		{
+			"src": "/assets/img/512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
 	"background_color": "#ffffff",
-	"display": "minimal-ui",
+	"display": "standalone",
 	"theme_color": "#24292E"
   }

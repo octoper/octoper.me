@@ -4,6 +4,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+
     <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/manifest.js">
     <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/vendor.js">
     <link rel="preload" as="script" href="{{ $page->baseUrl }}/assets/build/js/main.js">
@@ -25,17 +26,16 @@
 
     <title>{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.json">
 
     <link rel="home" href="{{ $page->baseUrl }}">
+    <link rel="apple-touch-icon" sizes="200x200" href="/assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/jpeg" href="/assets/img/about.jpg">
     <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
-
 
     @stack('meta')
 
     @include('_assets.style')
-    {{-- <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}"> --}}
 </head>
 
 <body x-data="{ openNav: false }" class="flex flex-col justify-between min-h-screen bg-white dark:bg-gray-900 dark:text-white text-gray-800 leading-normal font-sans">
@@ -86,6 +86,19 @@
     <script src="{{ $page->baseUrl }}{{ mix('js/manifest.js', 'assets/build') }}" defer></script>
     <script src="{{ $page->baseUrl }}{{ mix('js/vendor.js', 'assets/build') }}" defer></script>
     <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('service-worker.js')
+              .then(reg => {
+                console.log('Service worker registered! 🥳', reg);
+              })
+              .catch(err => {
+                console.log('😫 Service worker registration failed: ', err);
+              });
+          });
+        }
+    </script>
     @stack('scripts')
 </body>
 </html>
