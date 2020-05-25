@@ -27,7 +27,6 @@
             as performant as possible (I'm getting very angry when PageSpeeds show's score < 85) </p> <p>
                 I you want know if I'm available for hire or If you would like to support me and make it
                 possible for me to continue sharing resources for free, you could donate through the Buy me a coffee
-                button below.
         </p>
         <div class="mt-6 flex flex-col lg:flex-row">
             <a href="/contact">
@@ -36,9 +35,9 @@
                     Contact me
                 </div>
             </a>
-            <a target="_blank" rel="noopener" href="https://www.buymeacoffee.com/x9Amckg">
+            <a target="_blank" class="mt-4 lg:mt-0 lg:ml-4" rel="noopener" href="https://www.buymeacoffee.com/x9Amckg">
                 <div
-                    class="mt-4 lg:mt-0 lg:ml-4 w-full flex justify-center py-3 px-4 items-center button">
+                    class="w-full flex justify-center py-3 px-4 items-center button">
                     @include('_assets.bmc')
                     Buy me a coffee
                 </div>
