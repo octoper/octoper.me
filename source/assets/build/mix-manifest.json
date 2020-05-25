@@ -1,11 +1,7 @@
 {
-    "/js/manifest.js": "/js/manifest.js?id=d91051ea7d0c9bd1981e",
-    "/js/manifest.js.map": "/js/manifest.js.map?id=a07956f82042cc418451",
-    "/js/vendor.js": "/js/vendor.js?id=f3325b614660cd7dc4b4",
-    "/js/vendor.js.map": "/js/vendor.js.map?id=e30b2eb08fdef031ae37",
-    "/js/blog.js": "/js/blog.js?id=3120195b7d8a8ca8afc7",
-    "/js/blog.js.map": "/js/blog.js.map?id=3fb7178ebab220f17ed0",
-    "/js/main.js": "/js/main.js?id=e54584a53d9d12d10e75",
-    "/css/main.css": "/css/main.css?id=1c9f6a0b4578943e7c16",
-    "/js/main.js.map": "/js/main.js.map?id=447b1394f399b0f36657"
+    "/js/blog.js": "/js/blog.js?id=dbf50ba28a8104ae838c",
+    "/js/main.js": "/js/main.js?id=1d9b222dcf23d990a9ef",
+    "/css/main.css": "/css/main.css?id=200937392eb2a62095bc",
+    "/js/manifest.js": "/js/manifest.js?id=41f053ba9a94d81b39f8",
+    "/js/vendor.js": "/js/vendor.js?id=8d229f27aa68a9011584"
 }

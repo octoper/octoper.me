@@ -85,13 +85,21 @@
 
 
     </div>
-    <script src="{{ $page->baseUrl }}{{ mix('js/manifest.js', 'assets/build') }}" defer></script>
+    <script>
+        @php
+            include(public_path('assets/build/js/manifest.js'));
+        @endphp
+    </script>
     <script src="{{ $page->baseUrl }}{{ mix('js/vendor.js', 'assets/build') }}" defer></script>
-    <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script>
+        @php
+            include(public_path('assets/build/js/main.js'));
+        @endphp
+    </script>
     <script>
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
-            navigator.serviceWorker.register('service-worker.js')
+            navigator.serviceWorker.register('/service-worker.js')
               .then(reg => {
                 console.log('Service worker registered! 🥳');
               })
