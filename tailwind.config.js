@@ -1,4 +1,15 @@
 module.exports = {
+  purge: {
+    content: [
+      './source/**/*.html',
+      './source/**/*.php',
+      './source/**/*.js'
+    ],
+    options: {
+      defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
+      whitelistPatterns: [/-active$/, /-enter$/, /-leave-to$/, /show$/],
+    },
+  },
   theme: {
     extend: {
       colors: {

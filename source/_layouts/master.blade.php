@@ -80,6 +80,13 @@
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind
                         CSS</a>.
                 </li>
+                <li class="my-4">by</li>
+                <li>
+                    <h1 class="text-lg w-32 mx-auto md:text-2xl border-b-2 border-t-2 dark:border-gray-200 dark-hover:border-white border-gray-900 uppercase font-righteous
+                        dark:text-gray-100 dark-hover:text-white text-gray-500 font-medium hover:text-gray-900 my-0">
+                        Octoper
+                    </h1>
+                </li>
             </ul>
         </footer>
 

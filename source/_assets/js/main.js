@@ -9,7 +9,8 @@ window.ToggleDark = () => {
 				this.mode = 'dark';
 				localStorage.setItem('mode', this.mode);
 				document.querySelector('html').classList.add('mode-dark');
-			} else {
+			}
+			else {
 				this.mode = 'light';
 				localStorage.setItem('mode', this.mode);
 				document.querySelector('html').classList.remove('mode-dark');
@@ -17,9 +18,10 @@ window.ToggleDark = () => {
 		},
 		created () {
 			if (localStorage.getItem('mode') == 'dark') {
-			this.mode = 'dark';
-			document.querySelector('html').classList.add('mode-dark');
-			} else {
+				this.mode = 'dark';
+				document.querySelector('html').classList.add('mode-dark');
+			}
+			else {
 				this.mode = 'light';
 				document.querySelector('html').classList.remove('mode-dark');
 			}
