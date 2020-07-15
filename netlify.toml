@@ -1,5 +1,5 @@
 [build]
 
-command = "composer require tightenco/jigsaw && npm run production"
+command = "composer install && npm run production"
 publish = "build_production"
 environment = { PHP_VERSION = "7.2" }
