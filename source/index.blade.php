@@ -26,7 +26,7 @@
             Oh! and I forgot to say that I'm performance freak, I try to make every site
             as performant as possible (I'm getting very angry when PageSpeeds show's score < 85) </p> <p>
                 I you want know if I'm available for hire or If you would like to support me and make it
-                possible for me to continue sharing resources for free, you could donate through the Buy me a coffee
+                possible for me to continue sharing resources for free, you can help me by sponsoring me on GitHub
         </p>
         <div class="mt-6 flex flex-col lg:flex-row">
             <a href="/contact">
@@ -35,16 +35,16 @@
                     Contact me
                 </div>
             </a>
-            <a target="_blank" class="mt-4 lg:mt-0 lg:ml-4" rel="noopener" href="https://www.buymeacoffee.com/x9Amckg">
+            <a target="_blank" class="mt-4 lg:mt-0 lg:ml-4" rel="noopener" href="https://github.com/sponsors/octoper">
                 <div
-                    class="w-full flex justify-center py-3 px-4 items-center button">
-                    @include('_assets.bmc')
-                    Buy me a coffee
+                    class="w-full flex justify-center py-3 px-5 items-center button">
+                    <x-i-heart class="w-5 h-5 mr-4"></x-i-heart>
+                    Sponsor
                 </div>
             </a>
         </div>
     </div>
 
 </div>
-@include('_components.newsletter-signup')
+<x-newsletter-signup></x-newsletter-signup>
 @endsection

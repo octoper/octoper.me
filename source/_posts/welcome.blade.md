@@ -15,5 +15,4 @@ Make sure you see all my latest post by subscribing to my newsletter
 
 ---
 
-@component('_components.newsletter-signup')
-@endcomponent
+<x-newsletter-signup></x-newsletter-signup>

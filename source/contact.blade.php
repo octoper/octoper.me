@@ -14,7 +14,7 @@
     Hey, if you want to get in touch with me about anything submit this form and I will reach out ass soon I can.
 </p>
 
-<form name="contact" netlify class="mb-12">
+<form name="contact" netlify method="POST" class="mb-12">
     <div class="flex flex-wrap mb-6 -mx-3">
         <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
             <label class="block mb-2 dark:text-gray-100 text-gray-800 text-sm font-semibold" for="contact-name">
