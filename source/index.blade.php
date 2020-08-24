@@ -13,19 +13,17 @@
         </p>
 
         <p class="text-lg">
-            My speciality on the backend is Laravel, on the frontend is VueJS and nowdays I use TailwindCSS for styling.
+            My speciality on the backend is Laravel, nowdays I use the TALL (TailwindCSS,AlpineJS,Laravel,Livewire) Stack
+        </p> 
+
+        <p class="text-lg">
+            I'm passionate about PWA's, Web components, Javascript, Rust and Python.
         </p>
 
         <p class="text-lg">
-            I'm passionate about PWA's, Web components and also I'm a website performance freak I optimize the speed of
-            a website to be as fast as possible.
-        </p>
-
-        <p class="text-lg">
-            I'm passionate about PWA's, Javascript, Rust and Python.<br>
-            Oh! and I forgot to say that I'm performance freak, I try to make every site
-            as performant as possible (I'm getting very angry when PageSpeeds show's score < 85) </p> <p>
-                I you want know if I'm available for hire or If you would like to support me and make it
+            Oh! and I forgot to say that I'm performance freak, I try to make every site 
+            as performant as possible (I'm getting very angry when PageSpeeds show's score < 85)</p> <p>
+                I you want know if I'm available for hire contact me by clicking the Contact me button below and if you would like to support me and make it
                 possible for me to continue sharing resources for free, you can help me by sponsoring me on GitHub
         </p>
         <div class="mt-6 flex flex-col lg:flex-row">
