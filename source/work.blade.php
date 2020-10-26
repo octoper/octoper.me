@@ -21,7 +21,7 @@ pagination:
     </div>
 
     @if($pagination->items->count())
-        <h2 class="mt-16">Projects</h2>
+        <h2 id="projects" class="mt-16">Projects</h2>
         <div class="grid grid-row-1 mt-8 space-y-4">
             @foreach ($pagination->items as $project)
                 @if(!$project->openSource)
@@ -35,7 +35,7 @@ pagination:
     @endif
 
     @if($pagination->items->count())
-        <h2 class="mt-16">Open Source</h2>
+        <h2 id="open-source" class="mt-16">Open Source</h2>
         <div class="grid grid-row-1 mt-8 space-y-4">
             @foreach ($pagination->items as $project)
                 @if($project->openSource)
