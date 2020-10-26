@@ -903,13 +903,6 @@ p {
   margin-bottom: 0.75rem;
 }
 
-@media (min-width: 768px) {
-  p {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
 pre {
   --bg-opacity: 1;
   background-color: #C8CACB;

@@ -11,7 +11,7 @@ Twitter: {{ $page->social->twitter }}.
 
 Github: {{ $page->social->github }}.
 
-Location: Iraklion, Greece
+Location: Heraklion, Greece
 
 
 /* SITE */
@@ -23,7 +23,7 @@ Last update: {{ \Carbon\Carbon::now()->format('Y/m/d') }}
 Standards: HTML5, CSS3, JS, PHP
 
 
-Components: VueJS, Jigsaw, quicklinks, lazysizes
+Components: Jigsaw, quicklinks, lazysizes
 
 
-Software: Visual Studio Code
+Software: PhpStorm

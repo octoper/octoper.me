@@ -1,4 +1,5 @@
 ---
+title: Blog
 pagination:
     collection: posts
     perPage: 4
@@ -27,7 +28,7 @@ pagination:
             @endif
         @endforeach
     @else
-        <h1>I haven't post anything yert</h1>
+        <h1>I haven't post anything yet</h1>
     @endif
 
     @if ($pagination->pages->count() > 1)

@@ -13,6 +13,8 @@ mix.webpackConfig({
             'source/**/*.md',
             'source/**/*.txt',
             'source/**/*.php',
+            'source/**/*.yaml',
+            'source/**/*.yml',
             'source/**/*.scss',
         ]),
     ]

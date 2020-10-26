@@ -2191,12 +2191,12 @@
             "version": "v1.3.29",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tightenco/jigsaw.git",
+                "url": "https://github.com/tighten/jigsaw.git",
                 "reference": "22bb32b0334f6bc2965df0ff558b4a9a30111469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/jigsaw/zipball/22bb32b0334f6bc2965df0ff558b4a9a30111469",
+                "url": "https://api.github.com/repos/tighten/jigsaw/zipball/22bb32b0334f6bc2965df0ff558b4a9a30111469",
                 "reference": "22bb32b0334f6bc2965df0ff558b4a9a30111469",
                 "shasum": ""
             },
@@ -2253,6 +2253,10 @@
                 "site",
                 "static"
             ],
+            "support": {
+                "issues": "https://github.com/tighten/jigsaw/issues",
+                "source": "https://github.com/tighten/jigsaw/tree/v1.3.29"
+            },
             "time": "2020-07-14T13:19:35+00:00"
         },
         {
@@ -2404,5 +2408,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }

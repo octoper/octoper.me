@@ -17,20 +17,20 @@ __webpack_require__.r(__webpack_exports__);
 
 window.ToggleDark = function () {
   return {
-    mode: '',
+    mode: "",
     toggle: function toggle() {
-      if (this.mode == 'light') {
-        this.mode = 'dark';
-        localStorage.setItem('mode', this.mode);
-        document.querySelector('html').classList.add('mode-dark');
+      if (this.mode == "light") {
+        this.mode = "dark";
+        localStorage.setItem("mode", this.mode);
+        document.querySelector("html").classList.add("mode-dark");
       } else {
-        this.mode = 'light';
+        this.mode = "light";
         localStorage.setItem('mode', this.mode);
         document.querySelector('html').classList.remove('mode-dark');
       }
     },
     created: function created() {
-      if (localStorage.getItem('mode') == 'dark') {
+      if (localStorage.getItem('mode') === 'dark') {
         this.mode = 'dark';
         document.querySelector('html').classList.add('mode-dark');
       } else {
@@ -61,8 +61,8 @@ window.ToggleDark = function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/octoper/code/private/octoper.me/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/octoper/code/private/octoper.me/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /home/octoper/code/octoper.me/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /home/octoper/code/octoper.me/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })

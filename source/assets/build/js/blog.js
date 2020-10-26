@@ -34,7 +34,7 @@ document.querySelectorAll('pre code').forEach(function (block) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/octoper/code/private/octoper.me/source/_assets/js/blog.js */"./source/_assets/js/blog.js");
+module.exports = __webpack_require__(/*! /home/octoper/code/octoper.me/source/_assets/js/blog.js */"./source/_assets/js/blog.js");
 
 
 /***/ })

@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://octoper.test',
+    'baseUrl' => 'https://octoper.me.test',
     'production' => false,
     'siteName' => 'Octoper',
     'nickname' => 'Octoper',
@@ -22,6 +22,9 @@ return [
             'author' => 'Vaggelis Yfantis', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
+        ],
+        'projects' => [
+            'path' => 'work/{filename}',
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
