@@ -2,9 +2,9 @@
 
 @section('body')
 
-    <div class="grid grid-rows xl:grid-cols-2 mt-10 xl:gap-2">
+    <div class="grid grid-rows gap-2 lg:grid-cols-2 lg:gap-2">
         <div id="content" class="break-words">
-            <h1 class="font-medium font-righteous text-6xl">Hey!</h1>
+            <h1 class="font-medium font-righteous text-center lg:text-left text-5xl xl:text-6xl">Hey!</h1>
             <p class="dark:text-white text-black text-lg mt-16">
                 My name is Vaggelis and I'm a full-stack web developer, I live in Heraklion, Greece and I'm also
                 a student at <br class="hidden lg:block"> <a href="https://www.csd.uoc.gr/CSD/index.jsp?lang=en"
@@ -30,6 +30,7 @@
                 would like to support me and make it
                 possible for me to continue sharing resources for free, you can help me by sponsoring me on GitHub
             </p>
+
             <div class="mt-6 flex flex-col lg:flex-row">
                 <a href="/contact">
                     <div
@@ -47,7 +48,11 @@
                 </a>
             </div>
         </div>
-
+        <div class="row-start-1 mb-8 lg:mb-0 lg:mt-10 lg:row-start-auto">
+            <img src="https://res.cloudinary.com/ddcfoiu4x/image/upload/v1603684582/octoper.me/6823226_lfm8qy.jpg"
+                 alt="Octoper profile picture" width="200" height="200"
+                 class="mx-auto border-2 border-white rounded-full">
+        </div>
     </div>
     <x-newsletter-signup></x-newsletter-signup>
 @endsection
