@@ -111,8 +111,7 @@
     }
 </script>
 @stack('scripts')
-<!-- Fathom - beautiful, simple website analytics -->
-<script src="https://cdn.usefathom.com/script.js" data-site="HZQUODED" defer></script>
-<!-- / Fathom -->
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""/></noscript>
 </body>
 </html>
