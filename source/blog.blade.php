@@ -1,5 +1,6 @@
 ---
 title: Blog
+description: Octoper's Blog
 pagination:
     collection: posts
     perPage: 4
