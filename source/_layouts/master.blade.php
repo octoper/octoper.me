@@ -111,8 +111,6 @@
     }
 </script>
 @stack('scripts')
-<!-- Fathom - beautiful, simple website analytics -->
-<script src="https://cdn.usefathom.com/script.js" data-site="HZQUODED" defer></script>
-<!-- / Fathom -->
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c69c001df93c4638bd06db46cf518382"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
