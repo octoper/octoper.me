@@ -32,6 +32,6 @@
         "comlink": "^4.3.0",
         "lazysizes": "^5.2.2",
         "quicklink": "^2.0.0",
-        "highlight.js": "^9.13.1"
+        "highlight.js": "^10.4.1"
     }
 }
