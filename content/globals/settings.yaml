@@ -1,6 +1,6 @@
 title: Settings
 data:
-  site_name: Octoper.me
+  site_name: Octoper
   social:
     -
       name: Twitter
@@ -14,3 +14,7 @@ data:
       name: Email
       url: 'mailto:me@octoper.me'
       icon: site/social-icons/email.svg
+    -
+      name: LinkedIn
+      url: 'https://www.linkedin.com/in/vaggelis-yfantis-2a559987/'
+      icon: site/social-icons/linkedin.svg

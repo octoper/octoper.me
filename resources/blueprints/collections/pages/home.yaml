@@ -3,22 +3,19 @@ sections:
   main:
     display: Main
     fields:
-      -
-        handle: title
+      - handle: title
         field:
           character_limit: 0
           type: text
           localizable: false
           display: Title
-      -
-        handle: subtitle
+      - handle: subtitle
         field:
           character_limit: 0
           type: text
           localizable: false
           display: Subtitle
-      -
-        handle: content
+      - handle: content
         field:
           restrict: false
           automatic_line_breaks: true
@@ -28,8 +25,17 @@ sections:
           type: markdown
           localizable: false
           display: Content
-      -
-        handle: template
+      - handle: profile_pic
+        field:
+          container: assets
+          restrict: false
+          folder: site/
+          allow_uploads: true
+          max_files: 1
+          type: assets
+          localizable: false
+          display: Profile Pic
+      - handle: template
         field:
           type: template
           localizable: false

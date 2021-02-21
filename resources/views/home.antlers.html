@@ -5,9 +5,8 @@
             {{ content }}
         </div>
         <div class="row-start-1 mb-8 lg:mb-0 lg:row-start-auto">
-            <img alt="Octoper profile picture"
-                 class="mx-auto lg:mx-0 lg:ml-auto border-2 border-white rounded-full" height="200" src="https://res.cloudinary.com/ddcfoiu4x/image/upload/v1603684582/octoper.me/6823226_lfm8qy.jpg"
-                 width="200">
+            {{ responsive:profile_pic ratio="1/1" alt="{title}" height="250" width="250"
+                class="mx-auto lg:mx-0 lg:ml-auto border-2 border-white rounded-full" }}
         </div>
     </article>
 </div>

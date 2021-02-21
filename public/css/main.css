@@ -31299,12 +31299,14 @@ h1 {
 
 .content a {
   font-weight: 500;
+  position: relative;
   text-decoration: underline;
 }
 
 .content a:hover {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
+  stroke-dashoffset: 0;
 }
 
 .content ul:not(.list-none) {
@@ -31411,6 +31413,25 @@ h1 {
     margin-top: 4rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .articles-list a::before {
+    margin-left: -2rem;
+    opacity: 0;
+    --tw-text-opacity: 1;
+    color: rgba(45, 55, 72, var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+    content: ">";
+    -webkit-margin-end: 1.2rem;
+            margin-inline-end: 1.2rem;
+  }
+
+  .articles-list a:hover::before, .articles-list a:focus::before {
+    opacity: 1;
   }
 }
 

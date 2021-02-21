@@ -38,11 +38,10 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
         [
             'type' => 'collection',
             'collection' => 'articles',
-            'width' => 50,
+            'width' => 100,
             'limit' => 10
         ],
         [

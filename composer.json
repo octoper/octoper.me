@@ -10,6 +10,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
+        "spatie/statamic-responsive-images": "^2.4",
         "statamic/cms": "3.0.*",
         "statamic/ssg": "dev-master"
     },
