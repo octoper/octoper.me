@@ -1,0 +1,7 @@
+tree:
+  -
+    title: About
+    url: /about
+  -
+    title: Articles
+    url: /articles

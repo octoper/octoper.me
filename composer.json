@@ -10,9 +10,10 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
+        "octoper/statamic-blade-components": "*",
+		"octoper/statamic-inline-assets": "*",
         "spatie/statamic-responsive-images": "^2.4",
-        "statamic/cms": "3.0.*",
-        "statamic/ssg": "dev-master"
+        "statamic/cms": "3.1.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -32,6 +33,16 @@
             "dont-discover": []
         }
     },
+	"repositories": [
+		{
+			"url": "./statamic-blade-components/",
+			"type": "path"
+		},
+		{
+			"url": "./statamic-inline-assets/",
+			"type": "path"
+		}
+	],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -47,6 +58,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "pre-update-cmd": [
+            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",

@@ -1,0 +1,3 @@
+<div>
+Heyyyy {{ $slot }}
+</div>
